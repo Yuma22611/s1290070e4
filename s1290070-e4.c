@@ -22,5 +22,8 @@ int main() {
     }
     printf("Heads: %d, Tails: %d\n", cnthead, cnttails);
 
+    if(cnthead > cnttails) printf("You won!\n");
+    else printf("You lost.\n");
+
     return 0;
 }
